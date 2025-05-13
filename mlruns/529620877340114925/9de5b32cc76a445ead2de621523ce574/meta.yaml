@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/9de5b32cc76a445ead2de621523ce574/artifacts
+end_time: 1747142158637
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 9de5b32cc76a445ead2de621523ce574
+run_name: delicate-turtle-454
+run_uuid: 9de5b32cc76a445ead2de621523ce574
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747142152743
+status: 3
+tags: []
+user_id: codespace

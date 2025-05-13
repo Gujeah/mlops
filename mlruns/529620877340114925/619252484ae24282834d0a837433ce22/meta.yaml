@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/619252484ae24282834d0a837433ce22/artifacts
+end_time: 1747142264986
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 619252484ae24282834d0a837433ce22
+run_name: enthused-croc-761
+run_uuid: 619252484ae24282834d0a837433ce22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747142259947
+status: 3
+tags: []
+user_id: codespace

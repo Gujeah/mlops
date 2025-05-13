@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/1d2bb1bbbe4347258c6944f2018f2cd3/artifacts
+end_time: 1747142378925
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 1d2bb1bbbe4347258c6944f2018f2cd3
+run_name: sedate-wren-598
+run_uuid: 1d2bb1bbbe4347258c6944f2018f2cd3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747142375476
+status: 3
+tags: []
+user_id: codespace

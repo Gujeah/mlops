@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/cadad5d6dcd04471be2febeb9320133a/artifacts
+end_time: 1747142314626
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: cadad5d6dcd04471be2febeb9320133a
+run_name: magnificent-yak-663
+run_uuid: cadad5d6dcd04471be2febeb9320133a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747142299420
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/0ea5b82dc9a54c8cbe40e005682a92c8/artifacts
+end_time: 1747142259917
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 0ea5b82dc9a54c8cbe40e005682a92c8
+run_name: peaceful-rook-109
+run_uuid: 0ea5b82dc9a54c8cbe40e005682a92c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747142247137
+status: 3
+tags: []
+user_id: codespace

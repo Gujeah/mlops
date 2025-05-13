@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/14ebdc4c9dd345e38f2da52038d8ec4c/artifacts
+end_time: 1747142363083
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 14ebdc4c9dd345e38f2da52038d8ec4c
+run_name: casual-fish-775
+run_uuid: 14ebdc4c9dd345e38f2da52038d8ec4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747142349297
+status: 3
+tags: []
+user_id: codespace

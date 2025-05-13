@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/e57156013a42488d8ff32a2870249f3a/artifacts
+end_time: 1747142330850
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: e57156013a42488d8ff32a2870249f3a
+run_name: spiffy-pug-49
+run_uuid: e57156013a42488d8ff32a2870249f3a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747142319556
+status: 3
+tags: []
+user_id: codespace

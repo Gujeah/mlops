@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/7df0c0ccca814aadafd2fac6be7adaa0/artifacts
+end_time: 1747142284418
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 7df0c0ccca814aadafd2fac6be7adaa0
+run_name: resilient-bug-482
+run_uuid: 7df0c0ccca814aadafd2fac6be7adaa0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747142265015
+status: 3
+tags: []
+user_id: codespace

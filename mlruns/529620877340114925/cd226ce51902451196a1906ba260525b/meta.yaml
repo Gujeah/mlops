@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/cd226ce51902451196a1906ba260525b/artifacts
+end_time: 1747142371542
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: cd226ce51902451196a1906ba260525b
+run_name: painted-mare-842
+run_uuid: cd226ce51902451196a1906ba260525b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747142363121
+status: 3
+tags: []
+user_id: codespace

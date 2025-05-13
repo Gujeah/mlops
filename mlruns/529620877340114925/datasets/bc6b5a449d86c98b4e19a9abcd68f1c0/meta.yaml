@@ -1,0 +1,9 @@
+digest: 36f935b0
+name: dataset
+profile: '{"features_shape": [46307, 449], "features_size": 20791843, "features_nbytes":
+  83167372}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float32\", \"shape\": [-1, 449]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "codespace", "mlflow.source.name": "/home/codespace/.local/share/virtualenvs/mlops-YYCOetdN/lib/python3.12/site-packages/ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

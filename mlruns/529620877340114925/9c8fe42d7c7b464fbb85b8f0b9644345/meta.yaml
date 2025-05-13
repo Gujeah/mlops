@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/9c8fe42d7c7b464fbb85b8f0b9644345/artifacts
+end_time: 1747142118542
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 9c8fe42d7c7b464fbb85b8f0b9644345
+run_name: gentle-stag-586
+run_uuid: 9c8fe42d7c7b464fbb85b8f0b9644345
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747142099995
+status: 3
+tags: []
+user_id: codespace

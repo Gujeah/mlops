@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/7075a000691b4d0c8ca5421e7f9271a9/artifacts
+end_time: 1747139300403
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 7075a000691b4d0c8ca5421e7f9271a9
+run_name: luminous-calf-382
+run_uuid: 7075a000691b4d0c8ca5421e7f9271a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747139299729
+status: 4
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/3bf211b8f44943d3973c5f4d796d79a7/artifacts
+end_time: 1747142169275
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 3bf211b8f44943d3973c5f4d796d79a7
+run_name: shivering-shoat-832
+run_uuid: 3bf211b8f44943d3973c5f4d796d79a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747142163722
+status: 3
+tags: []
+user_id: codespace

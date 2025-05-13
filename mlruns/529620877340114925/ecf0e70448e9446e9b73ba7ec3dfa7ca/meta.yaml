@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/ecf0e70448e9446e9b73ba7ec3dfa7ca/artifacts
+end_time: 1747142222251
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: ecf0e70448e9446e9b73ba7ec3dfa7ca
+run_name: awesome-goose-158
+run_uuid: ecf0e70448e9446e9b73ba7ec3dfa7ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747142217834
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/8ddd38d6358d466c84ea9f3cbfc22b48/artifacts
+end_time: 1747142163694
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 8ddd38d6358d466c84ea9f3cbfc22b48
+run_name: receptive-bird-649
+run_uuid: 8ddd38d6358d466c84ea9f3cbfc22b48
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747142158671
+status: 3
+tags: []
+user_id: codespace

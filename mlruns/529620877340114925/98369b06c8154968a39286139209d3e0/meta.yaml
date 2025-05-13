@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/98369b06c8154968a39286139209d3e0/artifacts
+end_time: 1747142375444
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 98369b06c8154968a39286139209d3e0
+run_name: whimsical-snake-561
+run_uuid: 98369b06c8154968a39286139209d3e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747142371571
+status: 3
+tags: []
+user_id: codespace

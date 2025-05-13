@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/5d3794720cf34c549dd402b2c8d34708/artifacts
+end_time: 1747142217802
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 5d3794720cf34c549dd402b2c8d34708
+run_name: kindly-snipe-357
+run_uuid: 5d3794720cf34c549dd402b2c8d34708
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747142210738
+status: 3
+tags: []
+user_id: codespace
