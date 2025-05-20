@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/a1202f8e573a4c00a6fe8b409a4f9711/artifacts
+end_time: 1747644609713
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: a1202f8e573a4c00a6fe8b409a4f9711
+run_name: capable-finch-210
+run_uuid: a1202f8e573a4c00a6fe8b409a4f9711
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747644591866
+status: 3
+tags: []
+user_id: codespace

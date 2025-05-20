@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/f181a0dce0ad4237b9c62c9be383d3ef/artifacts
+end_time: 1747644398968
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: f181a0dce0ad4237b9c62c9be383d3ef
+run_name: luminous-gull-431
+run_uuid: f181a0dce0ad4237b9c62c9be383d3ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747644379756
+status: 3
+tags: []
+user_id: codespace

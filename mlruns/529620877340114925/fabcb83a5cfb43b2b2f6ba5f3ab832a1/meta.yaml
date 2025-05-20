@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/fabcb83a5cfb43b2b2f6ba5f3ab832a1/artifacts
+end_time: 1747644582949
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: fabcb83a5cfb43b2b2f6ba5f3ab832a1
+run_name: skittish-fly-267
+run_uuid: fabcb83a5cfb43b2b2f6ba5f3ab832a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747644563570
+status: 3
+tags: []
+user_id: codespace

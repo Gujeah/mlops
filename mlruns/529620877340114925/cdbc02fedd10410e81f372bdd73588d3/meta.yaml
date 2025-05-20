@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/cdbc02fedd10410e81f372bdd73588d3/artifacts
+end_time: 1747402638521
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: cdbc02fedd10410e81f372bdd73588d3
+run_name: fearless-sheep-666
+run_uuid: cdbc02fedd10410e81f372bdd73588d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747402637632
+status: 4
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/bf71f7d330ce488ab3dc9b7e973c15f2/artifacts
+end_time: 1747644589163
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: bf71f7d330ce488ab3dc9b7e973c15f2
+run_name: righteous-sow-513
+run_uuid: bf71f7d330ce488ab3dc9b7e973c15f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747644582980
+status: 3
+tags: []
+user_id: codespace

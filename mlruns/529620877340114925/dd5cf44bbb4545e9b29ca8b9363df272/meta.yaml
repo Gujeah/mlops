@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/dd5cf44bbb4545e9b29ca8b9363df272/artifacts
+end_time: 1747644203477
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: dd5cf44bbb4545e9b29ca8b9363df272
+run_name: lyrical-pug-402
+run_uuid: dd5cf44bbb4545e9b29ca8b9363df272
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747644188104
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/4cbb6a151d194c23b1f4bc875e13f654/artifacts
+end_time: 1747644496494
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 4cbb6a151d194c23b1f4bc875e13f654
+run_name: angry-colt-975
+run_uuid: 4cbb6a151d194c23b1f4bc875e13f654
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747644493124
+status: 3
+tags: []
+user_id: codespace

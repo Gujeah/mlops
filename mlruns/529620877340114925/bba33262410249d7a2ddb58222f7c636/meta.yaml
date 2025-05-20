@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/bba33262410249d7a2ddb58222f7c636/artifacts
+end_time: 1747402601965
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: bba33262410249d7a2ddb58222f7c636
+run_name: smiling-sloth-771
+run_uuid: bba33262410249d7a2ddb58222f7c636
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747402601256
+status: 4
+tags: []
+user_id: codespace

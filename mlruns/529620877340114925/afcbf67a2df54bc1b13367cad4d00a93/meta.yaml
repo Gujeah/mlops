@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/afcbf67a2df54bc1b13367cad4d00a93/artifacts
+end_time: 1747644379725
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: afcbf67a2df54bc1b13367cad4d00a93
+run_name: resilient-flea-247
+run_uuid: afcbf67a2df54bc1b13367cad4d00a93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747644370539
+status: 3
+tags: []
+user_id: codespace

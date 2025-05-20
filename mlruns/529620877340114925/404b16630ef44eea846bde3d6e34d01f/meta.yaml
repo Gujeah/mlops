@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/404b16630ef44eea846bde3d6e34d01f/artifacts
+end_time: 1747644493079
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 404b16630ef44eea846bde3d6e34d01f
+run_name: abundant-pug-772
+run_uuid: 404b16630ef44eea846bde3d6e34d01f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747644479513
+status: 3
+tags: []
+user_id: codespace

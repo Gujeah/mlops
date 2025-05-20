@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/3455471623af41789b901481d4e39c90/artifacts
+end_time: 1747644080000
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 3455471623af41789b901481d4e39c90
+run_name: angry-lark-167
+run_uuid: 3455471623af41789b901481d4e39c90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747644067458
+status: 3
+tags: []
+user_id: codespace

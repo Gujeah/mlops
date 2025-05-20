@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/6541b6a39c9d4d9e98ebd1dcccc22e86/artifacts
+end_time: 1747644019767
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 6541b6a39c9d4d9e98ebd1dcccc22e86
+run_name: masked-whale-760
+run_uuid: 6541b6a39c9d4d9e98ebd1dcccc22e86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747644013235
+status: 3
+tags: []
+user_id: codespace

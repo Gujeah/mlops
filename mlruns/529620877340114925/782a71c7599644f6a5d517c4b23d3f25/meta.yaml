@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/782a71c7599644f6a5d517c4b23d3f25/artifacts
+end_time: 1747644246394
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 782a71c7599644f6a5d517c4b23d3f25
+run_name: glamorous-tern-614
+run_uuid: 782a71c7599644f6a5d517c4b23d3f25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747644239674
+status: 3
+tags: []
+user_id: codespace

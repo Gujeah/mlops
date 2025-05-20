@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/d052786acf0b49d2b5f0093d8bfabc72/artifacts
+end_time: 1747644591812
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: d052786acf0b49d2b5f0093d8bfabc72
+run_name: loud-shrike-715
+run_uuid: d052786acf0b49d2b5f0093d8bfabc72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747644589196
+status: 3
+tags: []
+user_id: codespace

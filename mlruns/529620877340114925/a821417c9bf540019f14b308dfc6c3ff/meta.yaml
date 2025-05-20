@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/a821417c9bf540019f14b308dfc6c3ff/artifacts
+end_time: 1747644430081
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: a821417c9bf540019f14b308dfc6c3ff
+run_name: funny-rat-581
+run_uuid: a821417c9bf540019f14b308dfc6c3ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747644418858
+status: 3
+tags: []
+user_id: codespace

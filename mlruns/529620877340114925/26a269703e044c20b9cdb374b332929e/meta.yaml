@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/26a269703e044c20b9cdb374b332929e/artifacts
+end_time: 1747644411525
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 26a269703e044c20b9cdb374b332929e
+run_name: gentle-crane-424
+run_uuid: 26a269703e044c20b9cdb374b332929e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747644399000
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/21525c48e5324c77b65bae81a802d7e6/artifacts
+end_time: 1747402916661
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 21525c48e5324c77b65bae81a802d7e6
+run_name: shivering-perch-854
+run_uuid: 21525c48e5324c77b65bae81a802d7e6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747402915966
+status: 4
+tags: []
+user_id: codespace

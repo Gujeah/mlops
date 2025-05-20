@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/f0c99385779e4879b8321fb18c400361/artifacts
+end_time: 1747403144054
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: f0c99385779e4879b8321fb18c400361
+run_name: thoughtful-dog-828
+run_uuid: f0c99385779e4879b8321fb18c400361
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747403143377
+status: 4
+tags: []
+user_id: codespace

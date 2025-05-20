@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/914ccbef41ca41e1861a0af01e60144d/artifacts
+end_time: 1747644169460
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: 914ccbef41ca41e1861a0af01e60144d
+run_name: mercurial-rat-915
+run_uuid: 914ccbef41ca41e1861a0af01e60144d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747644167523
+status: 3
+tags: []
+user_id: codespace

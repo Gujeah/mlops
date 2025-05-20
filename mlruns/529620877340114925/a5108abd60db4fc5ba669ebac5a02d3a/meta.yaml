@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/a5108abd60db4fc5ba669ebac5a02d3a/artifacts
+end_time: 1747406667347
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: a5108abd60db4fc5ba669ebac5a02d3a
+run_name: masked-lamb-970
+run_uuid: a5108abd60db4fc5ba669ebac5a02d3a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747406660773
+status: 4
+tags: []
+user_id: codespace

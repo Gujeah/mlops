@@ -1,0 +1,15 @@
+aliases:
+- ethel1
+creation_timestamp: 1747645839927
+current_stage: Staging
+description: ''
+last_updated_timestamp: 1747663712678
+name: nyc-tax-model
+run_id: fcddffa903004dae85d50851818390ae
+run_link: ''
+source: mlflow-artifacts:/529620877340114925/fcddffa903004dae85d50851818390ae/artifacts/models_mlflow
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/529620877340114925/fcddffa903004dae85d50851818390ae/artifacts/models_mlflow
+user_id: null
+version: 1

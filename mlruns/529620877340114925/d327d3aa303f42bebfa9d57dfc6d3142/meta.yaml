@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/529620877340114925/d327d3aa303f42bebfa9d57dfc6d3142/artifacts
+end_time: 1747406918273
+entry_point_name: ''
+experiment_id: '529620877340114925'
+lifecycle_stage: active
+run_id: d327d3aa303f42bebfa9d57dfc6d3142
+run_name: bustling-whale-258
+run_uuid: d327d3aa303f42bebfa9d57dfc6d3142
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747406909962
+status: 4
+tags: []
+user_id: codespace
