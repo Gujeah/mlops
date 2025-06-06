@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/133480228844674994/ef65717d9ad24dee8a1de1cf15d30ff4/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '133480228844674994'
+lifecycle_stage: active
+run_id: ef65717d9ad24dee8a1de1cf15d30ff4
+run_name: upset-moose-946
+run_uuid: ef65717d9ad24dee8a1de1cf15d30ff4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831972965
+status: 1
+tags: []
+user_id: codespace

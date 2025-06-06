@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops/homework/mlruns/0/1110aa891c0e404db222137ed9b4c9bb/artifacts
+end_time: 1747831337704
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1110aa891c0e404db222137ed9b4c9bb
+run_name: auspicious-sheep-151
+run_uuid: 1110aa891c0e404db222137ed9b4c9bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831314153
+status: 3
+tags: []
+user_id: codespace

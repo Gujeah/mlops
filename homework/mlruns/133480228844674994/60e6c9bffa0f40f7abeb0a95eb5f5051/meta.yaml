@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/133480228844674994/60e6c9bffa0f40f7abeb0a95eb5f5051/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '133480228844674994'
+lifecycle_stage: active
+run_id: 60e6c9bffa0f40f7abeb0a95eb5f5051
+run_name: vaunted-seal-987
+run_uuid: 60e6c9bffa0f40f7abeb0a95eb5f5051
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831538068
+status: 1
+tags: []
+user_id: codespace

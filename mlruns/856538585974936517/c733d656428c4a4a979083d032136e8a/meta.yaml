@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/856538585974936517/c733d656428c4a4a979083d032136e8a/artifacts
+end_time: 1748420536696
+entry_point_name: ''
+experiment_id: '856538585974936517'
+lifecycle_stage: active
+run_id: c733d656428c4a4a979083d032136e8a
+run_name: brawny-horse-763
+run_uuid: c733d656428c4a4a979083d032136e8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748420511539
+status: 4
+tags: []
+user_id: codespace

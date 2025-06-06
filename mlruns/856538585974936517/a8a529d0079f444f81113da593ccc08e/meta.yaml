@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/856538585974936517/a8a529d0079f444f81113da593ccc08e/artifacts
+end_time: 1748419631143
+entry_point_name: ''
+experiment_id: '856538585974936517'
+lifecycle_stage: active
+run_id: a8a529d0079f444f81113da593ccc08e
+run_name: worried-turtle-364
+run_uuid: a8a529d0079f444f81113da593ccc08e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748419576376
+status: 4
+tags: []
+user_id: codespace

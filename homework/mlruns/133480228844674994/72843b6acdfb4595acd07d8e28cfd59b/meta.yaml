@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/133480228844674994/72843b6acdfb4595acd07d8e28cfd59b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '133480228844674994'
+lifecycle_stage: active
+run_id: 72843b6acdfb4595acd07d8e28cfd59b
+run_name: sedate-roo-378
+run_uuid: 72843b6acdfb4595acd07d8e28cfd59b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747831717132
+status: 1
+tags: []
+user_id: codespace

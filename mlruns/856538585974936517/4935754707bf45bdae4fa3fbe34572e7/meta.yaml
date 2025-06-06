@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/856538585974936517/4935754707bf45bdae4fa3fbe34572e7/artifacts
+end_time: 1748420578202
+entry_point_name: ''
+experiment_id: '856538585974936517'
+lifecycle_stage: active
+run_id: 4935754707bf45bdae4fa3fbe34572e7
+run_name: adorable-kite-475
+run_uuid: 4935754707bf45bdae4fa3fbe34572e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748420553143
+status: 4
+tags: []
+user_id: codespace

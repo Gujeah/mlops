@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/856538585974936517/088a0680a9714b91b6e3fdeb24b8542a/artifacts
+end_time: 1748420649084
+entry_point_name: ''
+experiment_id: '856538585974936517'
+lifecycle_stage: active
+run_id: 088a0680a9714b91b6e3fdeb24b8542a
+run_name: shivering-tern-488
+run_uuid: 088a0680a9714b91b6e3fdeb24b8542a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748420624533
+status: 4
+tags: []
+user_id: codespace

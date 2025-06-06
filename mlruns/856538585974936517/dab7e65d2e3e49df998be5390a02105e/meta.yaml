@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/856538585974936517/dab7e65d2e3e49df998be5390a02105e/artifacts
+end_time: 1748433354335
+entry_point_name: ''
+experiment_id: '856538585974936517'
+lifecycle_stage: active
+run_id: dab7e65d2e3e49df998be5390a02105e
+run_name: rumbling-mare-570
+run_uuid: dab7e65d2e3e49df998be5390a02105e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748432170359
+status: 4
+tags: []
+user_id: codespace
