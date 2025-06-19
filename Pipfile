@@ -4,9 +4,25 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-mlflow = "*"
 flask = "*"
 gunicorn = "*"
+hyperopt = "*"
+xgboost = "*"
+psycopg = "*"
+psycopg-binary = "*"
+evidently = "*"
+mlflow = "*"
+jupyter = "*"
+seaborn = "*"
+matplotlib = "*"
+prefect = "*"
+tqdm = "*"
+requests = "*"
+joblib = "*"
+pyarrow = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
