@@ -1,0 +1,646 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile:
+#1 transferring dockerfile: 832B 0.2s done
+#1 DONE 1.2s
+
+#2 [internal] load metadata for docker.io/agrigorev/zoomcamp-model:mlops-2024-3.10.13-slim
+#2 DONE 7.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context:
+#3 transferring context: 2B 0.0s done
+#3 DONE 0.7s
+
+#4 [1/7] FROM docker.io/agrigorev/zoomcamp-model:mlops-2024-3.10.13-slim@sha256:f54535b73a8c3ef91967d5588de57d4e251b22addcbbfb6e71304a91c1c7027f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 92B 0.0s done
+#5 DONE 1.0s
+
+#6 [2/7] WORKDIR /app
+#6 CACHED
+
+#7 [3/7] RUN apt-get update &&     apt-get install -y --no-install-recommends     build-essential     python3-dev     libgfortran5 &&     rm -rf /var/lib/apt/lists/* # Clean up apt cache
+#7 CACHED
+
+#8 [4/7] RUN pip install --upgrade pip &&     pip install pipenv
+#8 CACHED
+
+#9 [5/7] COPY Pipfile Pipfile.lock ./
+#9 CACHED
+
+#10 [6/7] RUN pipenv install --system --deploy
+#10 4.481 Installing dependencies from Pipfile.lock (c7f4d0)...
+#10 742.1 Ignoring pywin32: markers 'sys_platform == "win32" and 
+#10 742.1 platform_python_implementation != "PyPy"' don't match your environment
+#10 742.1 Collecting anyio==4.9.0 (from -r 
+#10 742.1 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 1))
+#10 742.1   Downloading anyio-4.9.0-py3-none-any.whl (100 kB)
+#10 742.1 Collecting argon2-cffi==25.1.0 (from -r 
+#10 742.1 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 2))
+#10 742.1   Downloading argon2_cffi-25.1.0-py3-none-any.whl (14 kB)
+#10 742.1 Collecting argon2-cffi-bindings==21.2.0 (from -r 
+#10 742.1 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 3))
+#10 742.1   Downloading 
+#10 742.1 argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64
+#10 742.1 .whl (86 kB)
+#10 742.1 Collecting arrow==1.3.0 (from -r 
+#10 742.1 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 4))
+#10 742.1   Downloading arrow-1.3.0-py3-none-any.whl (66 kB)
+#10 742.1 Collecting asttokens==3.0.0 (from -r 
+#10 742.1 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 5))
+#10 742.1   Downloading asttokens-3.0.0-py3-none-any.whl (26 kB)
+#10 742.1 Collecting async-lru==2.0.5 (from -r 
+#10 742.1 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 6))
+#10 742.2   Downloading async_lru-2.0.5-py3-none-any.whl (6.1 kB)
+#10 742.2 Collecting attrs==25.3.0 (from -r 
+#10 742.2 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 7))
+#10 742.2   Downloading attrs-25.3.0-py3-none-any.whl (63 kB)
+#10 742.2 Collecting babel==2.17.0 (from -r 
+#10 742.2 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 8))
+#10 742.2   Downloading babel-2.17.0-py3-none-any.whl (10.2 MB)
+#10 742.2      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 981.3 kB/s eta 0:00:00
+#10 742.2 Collecting beautifulsoup4==4.13.4 (from -r 
+#10 742.2 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 9))
+#10 742.2   Downloading beautifulsoup4-4.13.4-py3-none-any.whl (187 kB)
+#10 742.2 Collecting bleach==6.2.0 (from bleach==6.2.0->-r 
+#10 742.2 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 10))
+#10 742.2   Downloading bleach-6.2.0-py3-none-any.whl (163 kB)
+#10 742.2 Collecting cffi==1.17.1 (from -r 
+#10 742.2 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 11))
+#10 742.2   Downloading 
+#10 742.2 cffi-1.17.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (446 kB)
+#10 742.2 Collecting charset-normalizer==3.4.2 (from -r 
+#10 742.2 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 12))
+#10 742.2   Downloading 
+#10 742.2 charset_normalizer-3.4.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.
+#10 742.2 whl (149 kB)
+#10 742.2 Collecting colorama==0.4.6 (from -r 
+#10 742.2 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 13))
+#10 742.2   Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+#10 742.2 Collecting comm==0.2.2 (from -r 
+#10 742.2 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 14))
+#10 742.2   Downloading comm-0.2.2-py3-none-any.whl (7.2 kB)
+#10 742.2 Collecting contourpy==1.3.0 (from -r 
+#10 742.2 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 15))
+#10 742.2   Downloading 
+#10 742.2 contourpy-1.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (322 
+#10 742.2 kB)
+#10 742.2 Collecting cycler==0.12.1 (from -r 
+#10 742.2 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 16))
+#10 742.2   Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+#10 742.2 Collecting debugpy==1.8.14 (from -r 
+#10 742.2 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 17))
+#10 742.2   Downloading 
+#10 742.2 debugpy-1.8.14-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17
+#10 742.2 _x86_64.manylinux2014_x86_64.whl (3.6 MB)
+#10 742.2      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 989.8 kB/s eta 0:00:00
+#10 742.2 Collecting decorator==5.2.1 (from -r 
+#10 742.2 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 18))
+#10 742.2   Downloading decorator-5.2.1-py3-none-any.whl (9.2 kB)
+#10 742.2 Collecting defusedxml==0.7.1 (from -r 
+#10 742.2 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 19))
+#10 742.2   Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+#10 742.3 Collecting exceptiongroup==1.3.0 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 20))
+#10 742.3   Downloading exceptiongroup-1.3.0-py3-none-any.whl (16 kB)
+#10 742.3 Collecting executing==2.2.0 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 21))
+#10 742.3   Downloading executing-2.2.0-py2.py3-none-any.whl (26 kB)
+#10 742.3 Collecting fastjsonschema==2.21.1 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 22))
+#10 742.3   Downloading fastjsonschema-2.21.1-py3-none-any.whl (23 kB)
+#10 742.3 Collecting fonttools==4.58.4 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 23))
+#10 742.3   Downloading 
+#10 742.3 fonttools-4.58.4-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.8
+#10 742.3 MB)
+#10 742.3      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 1.0 MB/s eta 0:00:00
+#10 742.3 Collecting fqdn==1.5.1 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 24))
+#10 742.3   Downloading fqdn-1.5.1-py3-none-any.whl (9.1 kB)
+#10 742.3 Collecting h11==0.16.0 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 25))
+#10 742.3   Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+#10 742.3 Collecting httpcore==1.0.9 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 26))
+#10 742.3   Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+#10 742.3 Collecting httpx==0.28.1 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 27))
+#10 742.3   Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+#10 742.3 Collecting idna==3.10 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 28))
+#10 742.3   Downloading idna-3.10-py3-none-any.whl (70 kB)
+#10 742.3 Collecting importlib-metadata==8.7.0 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 29))
+#10 742.3   Downloading importlib_metadata-8.7.0-py3-none-any.whl (27 kB)
+#10 742.3 Collecting importlib-resources==6.5.2 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 30))
+#10 742.3   Downloading importlib_resources-6.5.2-py3-none-any.whl (37 kB)
+#10 742.3 Collecting ipykernel==6.29.5 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 31))
+#10 742.3   Downloading ipykernel-6.29.5-py3-none-any.whl (117 kB)
+#10 742.3 Collecting ipython==8.18.1 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 32))
+#10 742.3   Downloading ipython-8.18.1-py3-none-any.whl (808 kB)
+#10 742.3      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 808.2/808.2 kB 778.5 kB/s eta 0:00:00
+#10 742.3 Collecting ipywidgets==8.1.7 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 33))
+#10 742.3   Downloading ipywidgets-8.1.7-py3-none-any.whl (139 kB)
+#10 742.3 Collecting isoduration==20.11.0 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 34))
+#10 742.3   Downloading isoduration-20.11.0-py3-none-any.whl (11 kB)
+#10 742.3 Collecting jedi==0.19.2 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 35))
+#10 742.3   Downloading jedi-0.19.2-py2.py3-none-any.whl (1.6 MB)
+#10 742.3      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 1.5 MB/s eta 0:00:00
+#10 742.3 Collecting jinja2==3.1.6 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 36))
+#10 742.3   Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+#10 742.3 Collecting joblib==1.5.1 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 37))
+#10 742.3   Downloading joblib-1.5.1-py3-none-any.whl (307 kB)
+#10 742.3 Collecting json5==0.12.0 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 38))
+#10 742.3   Downloading json5-0.12.0-py3-none-any.whl (36 kB)
+#10 742.3 Collecting jsonpointer==3.0.0 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 39))
+#10 742.3   Downloading jsonpointer-3.0.0-py2.py3-none-any.whl (7.6 kB)
+#10 742.3 Collecting jsonschema==4.24.0 (from jsonschema==4.24.0->-r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 40))
+#10 742.3   Downloading jsonschema-4.24.0-py3-none-any.whl (88 kB)
+#10 742.3 Collecting jsonschema-specifications==2025.4.1 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 41))
+#10 742.3   Downloading jsonschema_specifications-2025.4.1-py3-none-any.whl (18 kB)
+#10 742.3 Collecting jupyter==1.1.1 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 42))
+#10 742.3   Downloading jupyter-1.1.1-py2.py3-none-any.whl (2.7 kB)
+#10 742.3 Collecting jupyter-client==8.6.3 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 43))
+#10 742.3   Downloading jupyter_client-8.6.3-py3-none-any.whl (106 kB)
+#10 742.3 Collecting jupyter-console==6.6.3 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 44))
+#10 742.3   Downloading jupyter_console-6.6.3-py3-none-any.whl (24 kB)
+#10 742.3 Collecting jupyter-core==5.8.1 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 45))
+#10 742.3   Downloading jupyter_core-5.8.1-py3-none-any.whl (28 kB)
+#10 742.3 Collecting jupyter-events==0.12.0 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 46))
+#10 742.3   Downloading jupyter_events-0.12.0-py3-none-any.whl (19 kB)
+#10 742.3 Collecting jupyter-lsp==2.2.5 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 47))
+#10 742.3   Downloading jupyter_lsp-2.2.5-py3-none-any.whl (69 kB)
+#10 742.3 Collecting jupyter-server==2.16.0 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 48))
+#10 742.3   Downloading jupyter_server-2.16.0-py3-none-any.whl (386 kB)
+#10 742.3 Collecting jupyter-server-terminals==0.5.3 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 49))
+#10 742.3   Downloading jupyter_server_terminals-0.5.3-py3-none-any.whl (13 kB)
+#10 742.3 Collecting jupyterlab==4.4.3 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 50))
+#10 742.3   Downloading jupyterlab-4.4.3-py3-none-any.whl (12.3 MB)
+#10 742.3      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 932.5 kB/s eta 0:00:00
+#10 742.3 Collecting jupyterlab-pygments==0.3.0 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 51))
+#10 742.3   Downloading jupyterlab_pygments-0.3.0-py3-none-any.whl (15 kB)
+#10 742.3 Collecting jupyterlab-server==2.27.3 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 52))
+#10 742.3   Downloading jupyterlab_server-2.27.3-py3-none-any.whl (59 kB)
+#10 742.3 Collecting jupyterlab-widgets==3.0.15 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 53))
+#10 742.3   Downloading jupyterlab_widgets-3.0.15-py3-none-any.whl (216 kB)
+#10 742.3 Collecting kiwisolver==1.4.7 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 54))
+#10 742.3   Downloading 
+#10 742.3 kiwisolver-1.4.7-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6
+#10 742.3 MB)
+#10 742.3      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 753.2 kB/s eta 0:00:00
+#10 742.3 Collecting markupsafe==3.0.2 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 55))
+#10 742.3   Downloading 
+#10 742.3 MarkupSafe-3.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (20 
+#10 742.3 kB)
+#10 742.3 Collecting matplotlib==3.9.4 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 56))
+#10 742.3   Downloading 
+#10 742.3 matplotlib-3.9.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.3
+#10 742.3 MB)
+#10 742.3      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 611.7 kB/s eta 0:00:00
+#10 742.3 Collecting matplotlib-inline==0.1.7 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 57))
+#10 742.3   Downloading matplotlib_inline-0.1.7-py3-none-any.whl (9.9 kB)
+#10 742.3 Collecting mistune==3.1.3 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 58))
+#10 742.3   Downloading mistune-3.1.3-py3-none-any.whl (53 kB)
+#10 742.3 Collecting nbclient==0.10.2 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 59))
+#10 742.3   Downloading nbclient-0.10.2-py3-none-any.whl (25 kB)
+#10 742.3 Collecting nbconvert==7.16.6 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 60))
+#10 742.3   Downloading nbconvert-7.16.6-py3-none-any.whl (258 kB)
+#10 742.3 Collecting nbformat==5.10.4 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 61))
+#10 742.3   Downloading nbformat-5.10.4-py3-none-any.whl (78 kB)
+#10 742.3 Collecting nest-asyncio==1.6.0 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 62))
+#10 742.3   Downloading nest_asyncio-1.6.0-py3-none-any.whl (5.2 kB)
+#10 742.3 Collecting notebook==7.4.3 (from -r 
+#10 742.3 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 63))
+#10 742.3   Downloading notebook-7.4.3-py3-none-any.whl (14.3 MB)
+#10 742.3      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.3/14.3 MB 474.3 kB/s eta 0:00:00
+#10 742.4 Collecting notebook-shim==0.2.4 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 64))
+#10 742.4   Downloading notebook_shim-0.2.4-py3-none-any.whl (13 kB)
+#10 742.4 Collecting numpy==2.0.2 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 65))
+#10 742.4   Downloading 
+#10 742.4 numpy-2.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (19.5 MB)
+#10 742.4      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19.5/19.5 MB 523.3 kB/s eta 0:00:00
+#10 742.4 Collecting overrides==7.7.0 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 66))
+#10 742.4   Downloading overrides-7.7.0-py3-none-any.whl (17 kB)
+#10 742.4 Collecting pandas==2.3.0 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 67))
+#10 742.4   Downloading 
+#10 742.4 pandas-2.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.3 
+#10 742.4 MB)
+#10 742.4      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 773.0 kB/s eta 0:00:00
+#10 742.4 Collecting pandocfilters==1.5.1 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 68))
+#10 742.4   Downloading pandocfilters-1.5.1-py2.py3-none-any.whl (8.7 kB)
+#10 742.4 Collecting parso==0.8.4 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 69))
+#10 742.4   Downloading parso-0.8.4-py2.py3-none-any.whl (103 kB)
+#10 742.4 Collecting pillow==11.2.1 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 70))
+#10 742.4   Downloading pillow-11.2.1-cp310-cp310-manylinux_2_28_x86_64.whl (4.6 MB)
+#10 742.4      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.6/4.6 MB 1.0 MB/s eta 0:00:00
+#10 742.4 Collecting prometheus-client==0.22.1 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 71))
+#10 742.4   Downloading prometheus_client-0.22.1-py3-none-any.whl (58 kB)
+#10 742.4 Collecting prompt-toolkit==3.0.51 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 72))
+#10 742.4   Downloading prompt_toolkit-3.0.51-py3-none-any.whl (387 kB)
+#10 742.4 Collecting psutil==7.0.0 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 73))
+#10 742.4   Downloading 
+#10 742.4 psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17
+#10 742.4 _x86_64.manylinux2014_x86_64.whl (277 kB)
+#10 742.4 Collecting pure-eval==0.2.3 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 74))
+#10 742.4   Downloading pure_eval-0.2.3-py3-none-any.whl (11 kB)
+#10 742.4 Collecting pyarrow==20.0.0 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 75))
+#10 742.4   Downloading pyarrow-20.0.0-cp310-cp310-manylinux_2_28_x86_64.whl (42.3 MB)
+#10 742.4      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.3/42.3 MB 848.0 kB/s eta 0:00:00
+#10 742.4 Collecting pycparser==2.22 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 76))
+#10 742.4   Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+#10 742.4 Collecting pygments==2.19.1 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 77))
+#10 742.4   Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
+#10 742.4      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 1.1 MB/s eta 0:00:00
+#10 742.4 Collecting pyparsing==3.2.3 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 78))
+#10 742.4   Downloading pyparsing-3.2.3-py3-none-any.whl (111 kB)
+#10 742.4 Collecting python-dateutil==2.9.0.post0 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 79))
+#10 742.4   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+#10 742.4 Collecting python-json-logger==3.3.0 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 80))
+#10 742.4   Downloading python_json_logger-3.3.0-py3-none-any.whl (15 kB)
+#10 742.4 Collecting pytz==2025.2 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 81))
+#10 742.4   Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+#10 742.4 Collecting pywinpty==2.0.15 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 83))
+#10 742.4   Downloading pywinpty-2.0.15.tar.gz (29 kB)
+#10 742.4   Installing build dependencies: started
+#10 742.4   Installing build dependencies: finished with status 'done'
+#10 742.4   Getting requirements to build wheel: started
+#10 742.4   Getting requirements to build wheel: finished with status 'done'
+#10 742.4   Installing backend dependencies: started
+#10 742.4   Installing backend dependencies: finished with status 'done'
+#10 742.4   Preparing metadata (pyproject.toml): started
+#10 742.4   Preparing metadata (pyproject.toml): still running...
+#10 742.4   Preparing metadata (pyproject.toml): still running...
+#10 742.4   Preparing metadata (pyproject.toml): still running...
+#10 742.4   Preparing metadata (pyproject.toml): finished with status 'done'
+#10 742.4 Collecting pyyaml==6.0.2 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 84))
+#10 742.4   Downloading 
+#10 742.4 PyYAML-6.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (751 kB)
+#10 742.4      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 751.2/751.2 kB 481.9 kB/s eta 0:00:00
+#10 742.4 Collecting pyzmq==27.0.0 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 85))
+#10 742.4   Downloading 
+#10 742.4 pyzmq-27.0.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (853 
+#10 742.4 kB)
+#10 742.4      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 853.8/853.8 kB 682.7 kB/s eta 0:00:00
+#10 742.4 Collecting referencing==0.36.2 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 86))
+#10 742.4   Downloading referencing-0.36.2-py3-none-any.whl (26 kB)
+#10 742.4 Collecting requests==2.32.4 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 87))
+#10 742.4   Downloading requests-2.32.4-py3-none-any.whl (64 kB)
+#10 742.4 Collecting rfc3339-validator==0.1.4 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 88))
+#10 742.4   Downloading rfc3339_validator-0.1.4-py2.py3-none-any.whl (3.5 kB)
+#10 742.4 Collecting rfc3986-validator==0.1.1 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 89))
+#10 742.4   Downloading rfc3986_validator-0.1.1-py2.py3-none-any.whl (4.2 kB)
+#10 742.4 Collecting rpds-py==0.25.1 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 90))
+#10 742.4   Downloading 
+#10 742.4 rpds_py-0.25.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (386 
+#10 742.4 kB)
+#10 742.4 Collecting scikit-learn==1.5.0 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 91))
+#10 742.4   Downloading 
+#10 742.4 scikit_learn-1.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl 
+#10 742.4 (13.3 MB)
+#10 742.4      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.3/13.3 MB 825.4 kB/s eta 0:00:00
+#10 742.4 Collecting scipy==1.13.1 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 92))
+#10 742.4   Downloading 
+#10 742.4 scipy-1.13.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38.6 
+#10 742.4 MB)
+#10 742.4      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.6/38.6 MB 774.4 kB/s eta 0:00:00
+#10 742.4 Collecting seaborn==0.13.2 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 93))
+#10 742.4   Downloading seaborn-0.13.2-py3-none-any.whl (294 kB)
+#10 742.4 Collecting send2trash==1.8.3 (from -r 
+#10 742.4 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 94))
+#10 742.5   Downloading Send2Trash-1.8.3-py3-none-any.whl (18 kB)
+#10 742.5 Collecting six==1.17.0 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 95))
+#10 742.5   Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+#10 742.5 Collecting sniffio==1.3.1 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 96))
+#10 742.5   Using cached sniffio-1.3.1-py3-none-any.whl (10 kB)
+#10 742.5 Collecting soupsieve==2.7 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 97))
+#10 742.5   Downloading soupsieve-2.7-py3-none-any.whl (36 kB)
+#10 742.5 Collecting stack-data==0.6.3 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 98))
+#10 742.5   Downloading stack_data-0.6.3-py3-none-any.whl (24 kB)
+#10 742.5 Collecting terminado==0.18.1 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 99))
+#10 742.5   Downloading terminado-0.18.1-py3-none-any.whl (14 kB)
+#10 742.5 Collecting threadpoolctl==3.6.0 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 100))
+#10 742.5   Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+#10 742.5 Collecting tinycss2==1.4.0 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 101))
+#10 742.5   Downloading tinycss2-1.4.0-py3-none-any.whl (26 kB)
+#10 742.5 Collecting tomli==2.2.1 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 102))
+#10 742.5   Using cached tomli-2.2.1-py3-none-any.whl (14 kB)
+#10 742.5 Collecting tornado==6.5.1 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 103))
+#10 742.5   Downloading 
+#10 742.5 tornado-6.5.1-cp39-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x8
+#10 742.5 6_64.manylinux2014_x86_64.whl (443 kB)
+#10 742.5 Collecting traitlets==5.14.3 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 104))
+#10 742.5   Downloading traitlets-5.14.3-py3-none-any.whl (85 kB)
+#10 742.5 Collecting types-python-dateutil==2.9.0.20250516 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 105))
+#10 742.5   Downloading types_python_dateutil-2.9.0.20250516-py3-none-any.whl (14 kB)
+#10 742.5 Collecting typing-extensions==4.14.0 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 106))
+#10 742.5   Using cached typing_extensions-4.14.0-py3-none-any.whl (43 kB)
+#10 742.5 Collecting tzdata==2025.2 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 107))
+#10 742.5   Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+#10 742.5 Collecting uri-template==1.3.0 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 108))
+#10 742.5   Downloading uri_template-1.3.0-py3-none-any.whl (11 kB)
+#10 742.5 Collecting urllib3==2.5.0 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 109))
+#10 742.5   Downloading urllib3-2.5.0-py3-none-any.whl (129 kB)
+#10 742.5 Collecting wcwidth==0.2.13 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 110))
+#10 742.5   Downloading wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+#10 742.5 Collecting webcolors==24.11.1 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 111))
+#10 742.5   Downloading webcolors-24.11.1-py3-none-any.whl (14 kB)
+#10 742.5 Collecting webencodings==0.5.1 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 112))
+#10 742.5   Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+#10 742.5 Collecting websocket-client==1.8.0 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 113))
+#10 742.5   Downloading websocket_client-1.8.0-py3-none-any.whl (58 kB)
+#10 742.5 Collecting widgetsnbextension==4.0.14 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 114))
+#10 742.5   Downloading widgetsnbextension-4.0.14-py3-none-any.whl (2.2 MB)
+#10 742.5      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 611.8 kB/s eta 0:00:00
+#10 742.5 Collecting zipp==3.23.0 (from -r 
+#10 742.5 /tmp/pipenv-jz2g4dvo-requirements/pipenv-pp7xvk5n-hashed-reqs.txt (line 115))
+#10 742.5   Downloading zipp-3.23.0-py3-none-any.whl (10 kB)
+#10 742.5 Building wheels for collected packages: pywinpty
+#10 742.5   Building wheel for pywinpty (pyproject.toml): started
+#10 742.5   Building wheel for pywinpty (pyproject.toml): finished with status 'error'
+#10 742.5 Failed to build pywinpty
+#10 742.5 error: subprocess-exited-with-error
+#10 742.5   
+#10 742.5   × Building wheel for pywinpty (pyproject.toml) did not run successfully.
+#10 742.5   │ exit code: 1
+#10 742.5   ╰─> [126 lines of output]
+#10 742.5       Running `maturin pep517 build-wheel -i /usr/local/bin/python3 
+#10 742.5 --compatibility off`
+#10 742.5       Python reports SOABI: cpython-310-x86_64-linux-gnu
+#10 742.5       Computed rustc target triple: x86_64-unknown-linux-gnu
+#10 742.5       Installation directory: /root/.cache/puccinialin
+#10 742.5       Rustup already downloaded
+#10 742.5       Installing rust to /root/.cache/puccinialin/rustup
+#10 742.5       warn: It looks like you have an existing rustup settings file at:
+#10 742.5       warn: /root/.rustup/settings.toml
+#10 742.5       warn: Rustup will install the default toolchain as specified in the 
+#10 742.5 settings file,
+#10 742.5       warn: instead of the one inferred from the default host triple.
+#10 742.5       info: profile set to 'minimal'
+#10 742.5       info: default host triple is x86_64-unknown-linux-gnu
+#10 742.5       warn: Updating existing toolchain, profile choice will be ignored
+#10 742.5       info: syncing channel updates for 'stable-x86_64-unknown-linux-gnu'
+#10 742.6       info: default toolchain set to 'stable-x86_64-unknown-linux-gnu'
+#10 742.6       Checking if cargo is installed
+#10 742.6       cargo 1.87.0 (99624be96 2025-05-06)
+#10 742.6       📦 Including license file 
+#10 742.6 "/tmp/pip-install-s47e_21c/pywinpty_792d92fefbb34a8bb4f27733441f7f4e/LICENSE.txt
+#10 742.6 "
+#10 742.6       🍹 Building a mixed python/rust project
+#10 742.6       🔗 Found pyo3 bindings
+#10 742.6       🐍 Found CPython 3.10 at /usr/local/bin/python3
+#10 742.6          Compiling proc-macro2 v1.0.93
+#10 742.6          Compiling unicode-ident v1.0.16
+#10 742.6          Compiling target-lexicon v0.12.16
+#10 742.6          Compiling autocfg v1.4.0
+#10 742.6          Compiling once_cell v1.20.2
+#10 742.6          Compiling windows_x86_64_gnu v0.52.6
+#10 742.6          Compiling windows_x86_64_gnu v0.53.0
+#10 742.6          Compiling windows-targets v0.52.6
+#10 742.6          Compiling windows-result v0.2.0
+#10 742.6          Compiling rustix v0.38.44
+#10 742.6          Compiling windows-strings v0.1.0
+#10 742.6          Compiling windows-targets v0.53.0
+#10 742.6          Compiling bitflags v2.8.0
+#10 742.6          Compiling quote v1.0.38
+#10 742.6          Compiling pyo3-build-config v0.23.4
+#10 742.6          Compiling linux-raw-sys v0.4.15
+#10 742.6          Compiling syn v2.0.98
+#10 742.6          Compiling num-traits v0.2.19
+#10 742.6          Compiling env_home v0.1.0
+#10 742.6          Compiling either v1.13.0
+#10 742.6          Compiling libc v0.2.169
+#10 742.6          Compiling windows-result v0.3.0
+#10 742.6          Compiling windows-strings v0.3.0
+#10 742.6          Compiling memoffset v0.9.1
+#10 742.6          Compiling heck v0.5.0
+#10 742.6          Compiling pyo3-ffi v0.23.4
+#10 742.6          Compiling pyo3-macros-backend v0.23.4
+#10 742.6          Compiling pyo3 v0.23.4
+#10 742.6          Compiling which v7.0.1
+#10 742.6          Compiling unindent v0.2.3
+#10 742.6          Compiling indoc v2.0.5
+#10 742.6          Compiling cfg-if v1.0.0
+#10 742.6          Compiling windows-implement v0.58.0
+#10 742.6          Compiling windows-interface v0.58.0
+#10 742.6          Compiling windows-implement v0.59.0
+#10 742.6          Compiling windows-interface v0.59.0
+#10 742.6          Compiling enum-primitive-derive v0.3.0
+#10 742.6          Compiling windows-core v0.58.0
+#10 742.6          Compiling windows v0.58.0
+#10 742.6          Compiling winpty-rs v0.4.1
+#10 742.6          Compiling windows-core v0.59.0
+#10 742.6          Compiling windows v0.59.0
+#10 742.6       error[E0433]: failed to resolve: could not find `Win32` in `windows`
+#10 742.6        --> 
+#10 742.6 /root/.cache/puccinialin/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/win
+#10 742.6 pty-rs-0.4.1/src/pty/base.rs:3:14
+#10 742.6         |
+#10 742.6       3 | use windows::Win32::Foundation::{CloseHandle, HANDLE, STATUS_PENDING, 
+#10 742.6 S_OK, WAIT_FAILED, WAIT_OBJECT_0, WAIT_TIMEOUT};
+#10 742.6         |              ^^^^^ could not find `Win32` in `windows`
+#10 742.6       
+#10 742.6       error[E0433]: failed to resolve: could not find `Win32` in `windows`
+#10 742.6        --> 
+#10 742.6 /root/.cache/puccinialin/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/win
+#10 742.6 pty-rs-0.4.1/src/pty/base.rs:4:14
+#10 742.6         |
+#10 742.6       4 | use windows::Win32::Storage::FileSystem::{GetFileSizeEx, ReadFile, 
+#10 742.6 WriteFile};
+#10 742.6         |              ^^^^^ could not find `Win32` in `windows`
+#10 742.6       
+#10 742.6       error[E0433]: failed to resolve: could not find `Win32` in `windows`
+#10 742.6        --> 
+#10 742.6 /root/.cache/puccinialin/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/win
+#10 742.6 pty-rs-0.4.1/src/pty/base.rs:5:14
+#10 742.6         |
+#10 742.6       5 | use windows::Win32::System::Pipes::PeekNamedPipe;
+#10 742.6         |              ^^^^^ could not find `Win32` in `windows`
+#10 742.6       
+#10 742.6       error[E0433]: failed to resolve: could not find `Win32` in `windows`
+#10 742.6        --> 
+#10 742.6 /root/.cache/puccinialin/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/win
+#10 742.6 pty-rs-0.4.1/src/pty/base.rs:6:14
+#10 742.6         |
+#10 742.6       6 | use windows::Win32::System::IO::CancelIoEx;
+#10 742.6         |              ^^^^^ could not find `Win32` in `windows`
+#10 742.6       
+#10 742.6       error[E0433]: failed to resolve: could not find `Win32` in `windows`
+#10 742.6        --> 
+#10 742.6 /root/.cache/puccinialin/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/win
+#10 742.6 pty-rs-0.4.1/src/pty/base.rs:7:14
+#10 742.6         |
+#10 742.6       7 | use windows::Win32::System::Threading::{GetExitCodeProcess, 
+#10 742.6 GetProcessId, WaitForSingleObject};
+#10 742.6         |              ^^^^^ could not find `Win32` in `windows`
+#10 742.6       
+#10 742.6       error[E0433]: failed to resolve: could not find `Win32` in `windows`
+#10 742.6        --> 
+#10 742.6 /root/.cache/puccinialin/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/win
+#10 742.6 pty-rs-0.4.1/src/pty/base.rs:8:14
+#10 742.6         |
+#10 742.6       8 | use windows::Win32::Globalization::{MultiByteToWideChar, 
+#10 742.6 WideCharToMultiByte, CP_UTF8, MULTI_BYTE_TO_WIDE_CHAR_FLAGS};
+#10 742.6         |              ^^^^^ could not find `Win32` in `windows`
+#10 742.6       
+#10 742.6       error[E0433]: failed to resolve: could not find `Win32` in `windows`
+#10 742.6         --> 
+#10 742.6 /root/.cache/puccinialin/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/win
+#10 742.6 pty-rs-0.4.1/src/pty/base.rs:10:14
+#10 742.6          |
+#10 742.6       10 | use windows::Win32::System::Threading::INFINITE;
+#10 742.6          |              ^^^^^ could not find `Win32` in `windows`
+#10 742.6       
+#10 742.6       error[E0432]: unresolved import `windows::core`
+#10 742.6        --> 
+#10 742.6 /root/.cache/puccinialin/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/win
+#10 742.6 pty-rs-0.4.1/src/pty/base.rs:9:14
+#10 742.6         |
+#10 742.6       9 | use windows::core::{HRESULT, Error, PCSTR};
+#10 742.6         |              ^^^^ could not find `core` in `windows`
+#10 742.6       
+#10 742.6       error: the `Self` constructor can only be used with tuple or unit structs
+#10 742.6         --> 
+#10 742.6 /root/.cache/puccinialin/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/win
+#10 742.6 pty-rs-0.4.1/src/pty/base.rs:70:9
+#10 742.6          |
+#10 742.6       70 |         Self(value.0)
+#10 742.6          |         ^^^^^^^^^^^^^
+#10 742.6       
+#10 742.6       Some errors have detailed explanations: E0432, E0433.
+#10 742.6       For more information about an error, try `rustc --explain E0432`.
+#10 742.6       error: could not compile `winpty-rs` (lib) due to 9 previous errors
+#10 742.6       warning: build failed, waiting for other jobs to finish...
+#10 742.6       💥 maturin failed
+#10 742.6         Caused by: Failed to build a native library through cargo
+#10 742.6         Caused by: Cargo build finished with "exit status: 101": `env -u CARGO 
+#10 742.6 PYO3_ENVIRONMENT_SIGNATURE="cpython-3.10-64bit" 
+#10 742.6 PYO3_PYTHON="/usr/local/bin/python3" 
+#10 742.6 PYTHON_SYS_EXECUTABLE="/usr/local/bin/python3" "cargo" "rustc" 
+#10 742.6 "--message-format" "json-render-diagnostics" "--manifest-path" 
+#10 742.6 "/tmp/pip-install-s47e_21c/pywinpty_792d92fefbb34a8bb4f27733441f7f4e/Cargo.toml"
+#10 742.6 "--release" "--lib"`
+#10 742.6       Rust not found, installing into a temporary directory
+#10 742.6       Error: command ['maturin', 'pep517', 'build-wheel', '-i', 
+#10 742.6 '/usr/local/bin/python3', '--compatibility', 'off'] returned non-zero exit 
+#10 742.6 status 1
+#10 742.6       
+#10 742.6   
+#10 742.6   note: This error originates from a subprocess, and is likely not a problem 
+#10 742.6 with pip.
+#10 742.6   ERROR: Failed building wheel for pywinpty
+#10 742.6 ERROR: Failed to build installable wheels for some pyproject.toml based projects
+#10 742.6 (pywinpty)
+#10 742.6 ERROR: Couldn't install package: {}
+#10 742.6  Package installation failed...
+#10 ERROR: process "/bin/sh -c pipenv install --system --deploy" did not complete successfully: exit code: 1
+------
+ > [6/7] RUN pipenv install --system --deploy:
+742.6 status 1
+742.6       
+742.6   
+742.6   note: This error originates from a subprocess, and is likely not a problem 
+742.6 with pip.
+742.6   ERROR: Failed building wheel for pywinpty
+742.6 ERROR: Failed to build installable wheels for some pyproject.toml based projects
+742.6 (pywinpty)
+742.6 ERROR: Couldn't install package: {}
+742.6  Package installation failed...
+------
+Dockerfile:20
+--------------------
+  18 |     
+  19 |     # 4. Install Python dependencies from Pipfile.lock using pipenv
+  20 | >>> RUN pipenv install --system --deploy
+  21 |     
+  22 |     # 5. Copy application code
+--------------------
+ERROR: failed to solve: process "/bin/sh -c pipenv install --system --deploy" did not complete successfully: exit code: 1
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/501bdkez2bdswguj79i7hziq8
